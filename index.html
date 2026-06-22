@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ralaivao Sedera | Product Designer UX/UI & Graphiste à Madagascar</title>
+<meta name="description" content="Portfolio officiel de Ralaivao Sedera, Product Designer UX/UI et Graphiste à Madagascar. Découvrez mes projets UI/UX, branding, design web, applications mobiles et identités visuelles.">
+<meta name="keywords" content="Ralaivao Sedera, UX Designer Madagascar, UI Designer Madagascar, Product Designer, Graphiste Madagascar, Portfolio UX UI, Figma Designer, Branding, Web Designer Madagascar, Designer Freelance">
+<link rel="canonical" href="https://ruxus.vercel.app/">
+
+<link rel="icon" type="image/png" href="assets/logo.png">
+<meta name="robots" content="index, follow">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="page-index">
+
+<!-- ===== NAVBAR UNIFIÉE ===== -->
+<header class="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A]/90 backdrop-blur-md border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+        <div class="w-12">
+            <a href="index.html"><img src="assets/logo.png" alt="Logo"></a>
+        </div>
+        <nav class="hidden md:flex gap-12 items-center">
+            <a href="index.html" class="text-red-500 font-medium hover:opacity-70 transition">Portfolio</a>
+            <a href="page/service.html" class="text-zinc-300 hover:text-white hover:opacity-70 transition">Services</a>
+            <a href="page/about.html" class="text-zinc-300 hover:text-white hover:opacity-70 transition">À propos</a>
+            <a href="cv/Ralaivao CV.pdf" class="bg-[#F0E6D6] text-black px-6 py-3 rounded-full font-medium transition hover:bg-[#E2D5C1]">
+                Curriculum vitae
+            </a>
+        </nav>
+        <button id="menuBtn" class="md:hidden text-2xl text-white">☰</button>
+    </div>
+    <!-- Menu mobile -->
+    <div id="mobileMenu" class="mobile-menu md:hidden">
+        <a href="index.html" class="active">Portfolio</a>
+        <a href="page/service.html">Services</a>
+        <a href="page/about.html">À propos</a>
+        <a href="cv/Ralaivao CV.pdf" class="cv-btn-mobile">Curriculum vitae</a>
+    </div>
+</header>
+
+<section class="min-h-screen flex items-center pt-32">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
+        <div>
+            <h1 class="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold leading-tight">Bonjour, C'est <br>R.Sedera</h1>
+            <p class="text-zinc-400 mt-6 md:mt-8 max-w-xl leading-relaxed text-sm md:text-base">UI/UX & Graphiste, avec plus de 3 ans d'expérience. Transformons les idées en expériences digitales élégantes, performantes et centrées utilisateur.</p>
+            <a href="cv/Ralaivao CV.pdf" class="inline-block mt-10 bg-red-800 px-12 py-4 rounded-xl font-semibold hover:bg-red-700 transition">Curriculum vitae</a>
+        </div>
+        <div class="flex justify-center">
+            <div class="relative">
+                <div class="arch-shape w-[280px] h-[360px] md:w-[420px] md:h-[550px] bg-red-800 border-4 border-[#E7D8C4] overflow-hidden">
+                    <img src="assets/ff.png" class="absolute bottom-0 left-1/2 -translate-x-1/2 h-full object-contain" alt="R. Sedera">
+                </div>
+                <div class="absolute top-20 left-0 glass rounded-xl p-3">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+Cgk8cGF0aCBkPSJNMCAwaDEyOHYxMjhIMHoiIGZpbGw9Im5vbmUiIC8+Cgk8cGF0aCBmaWxsPSIjMGFjZjgzIiBkPSJNNDUuNSAxMjljMTEuOSAwIDIxLjUtOS42IDIxLjUtMjEuNVY4Nkg0NS41QzMzLjYgODYgMjQgOTUuNiAyNCAxMDcuNVMzMy42IDEyOSA0NS41IDEyOW0wIDAiIC8+Cgk8cGF0aCBmaWxsPSIjYTI1OWZmIiBkPSJNMjQgNjQuNUMyNCA1Mi42IDMzLjYgNDMgNDUuNSA0M0g2N3Y0M0g0NS41QzMzLjYgODYgMjQgNzYuNCAyNCA2NC41bTAgMCIgLz4KCTxwYXRoIGZpbGw9IiNmMjRlMWUiIGQ9Ik0yNCAyMS41QzI0IDkuNiAzMy42IDAgNDUuNSAwSDY3djQzSDQ1LjVDMzMuNiA0MyAyNCAzMy40IDI0IDIxLjVtMCAwIiAvPgoJPHBhdGggZmlsbD0iI2ZmNzI2MiIgZD0iTTY3IDBoMjEuNUMxMDAuNCAwIDExMCA5LjYgMTEwIDIxLjVTMTAwLjQgNDMgODguNSA0M0g2N3ptMCAwIiAvPgoJPHBhdGggZmlsbD0iIzFhYmNmZSIgZD0iTTExMCA2NC41YzAgMTEuOS05LjYgMjEuNS0yMS41IDIxLjVTNjcgNzYuNCA2NyA2NC41Uzc2LjYgNDMgODguNSA0M1MxMTAgNTIuNiAxMTAgNjQuNW0wIDAiIC8+Cjwvc3ZnPgo=" class="w-10" alt="Figma">
+                </div>
+                <div class="absolute top-40 right-0 glass rounded-xl p-3">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+Cgk8cGF0aCBkPSJNMCAwaDEyOHYxMjhIMHoiIGZpbGw9Im5vbmUiIC8+Cgk8cGF0aCBmaWxsPSIjMzAwIiBkPSJNMjIuNyAxLjZoODIuN2MxMi41IDAgMjIuNyAxMC4xIDIyLjcgMjIuN3Y3OS41YzAgMTIuNS0xMC4xIDIyLjctMjIuNyAyMi43SDIyLjdDMTAuMSAxMjYuNCAwIDExNi4zIDAgMTAzLjdWMjQuM0MwIDExLjcgMTAuMSAxLjYgMjIuNyAxLjYiIC8+Cgk8cGF0aCBmaWxsPSIjZmY5YTAwIiBkPSJNNjEuOSA3Ni4zSDQybC00IDEyLjVjLS4xLjUtLjUuOC0xIC43SDI3Yy0uNiAwLS43LS4zLS42LTFsMTcuMi00OS40Yy4yLS41LjMtMS4xLjUtMS44Yy4yLTEuMS4zLTIuMy4zLTMuNWMtLjEtLjMuMi0uNS40LS42aDEzLjhjLjQgMCAuNi4yLjcuNGwxOS41IDU0LjljLjIuNiAwIC45LS41LjlINjcuMWMtLjQuMS0uNy0uMi0uOS0uNnpNNDUuMSA2NS40aDEzLjVjLS4zLTEuMS0uNy0yLjUtMS4yLTMuOGMtLjUtMS40LTEtMy0xLjQtNC42Yy0uNS0xLjctMS0zLjMtMS41LTQuOWMtLjUtMS43LTEtMy4yLTEuNC00LjdxLS42LTIuMjUtMS4yLTQuMmgtLjFxLS43NSAzLjQ1LTEuOCA2LjljLS44IDIuNi0xLjYgNS4yLTIuNSA3LjljLS44IDIuNy0xLjYgNS4yLTIuNCA3LjRtNDUuNi0yMi43Yy0xLjguMS0zLjUtLjYtNC43LTEuOXMtMS45LTMuMS0xLjgtNC45Yy0uMS0xLjguNi0zLjUgMS45LTQuN3MzLTEuOSA0LjctMS45YzIuMSAwIDMuNy42IDQuOSAxLjlzMS44IDMgMS44IDQuN2MuMSAxLjgtLjYgMy42LTEuOSA0LjlzLTMuMSAyLTQuOSAxLjltLTYgNDYuM1Y0Ny45YzAtLjUuMi0uNy43LS43SDk2Yy41IDAgLjcuMy43LjdWODljMCAuNi0uMi45LS43LjlIODUuNWMtLjUtLjEtLjgtLjQtLjgtLjkiIC8+Cjwvc3ZnPgo=" class="w-10" alt="Adobe XD">
+                </div>
+                <div class="absolute bottom-32 left-0 glass rounded-xl p-3">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxLjAzZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjU2IDI1MCI+Cgk8cGF0aCBkPSJNMCAwaDI1NnYyNTBIMHoiIGZpbGw9Im5vbmUiIC8+Cgk8cGF0aCBmaWxsPSIjMDAwMDViIiBkPSJNNDUuMzMzIDBoMTY1LjMzNEMyMzUuNzMzIDAgMjU2IDIwLjI2NyAyNTYgNDUuMzMzdjE1OC45MzRjMCAyNS4wNjYtMjAuMjY3IDQ1LjMzMy00NS4zMzMgNDUuMzMzSDQ1LjMzM0MyMC4yNjcgMjQ5LjYgMCAyMjkuMzMzIDAgMjA0LjI2N1Y0NS4zMzNDMCAyMC4yNjcgMjAuMjY3IDAgNDUuMzMzIDAiIC8+Cgk8cGF0aCBmaWxsPSIjOTlmIiBkPSJNNjAuOCAxNzUuMDRWNjUuMjhjMC0uNzQ3LjMyLTEuMTczIDEuMDY3LTEuMTczbDEuNTQ4LS4wMDNsMS4xOTgtLjAxbC44NDUtLjAxNmwuOS0uMDIzbC45NjctLjAzNGwuNTE1LS4wMjFjLjk2LS4wNCAxLjkzNS0uMDY1IDIuOTMtLjA4NmwzLjA1NS0uMDY0cS41MjEtLjAxMiAxLjA1MS0uMDI4bDEuMDctLjAzNXExLjQ0LS4wNTIgMi45NTItLjA4bDMuMDkzLS4wNTVsMi4xNDEtLjA0N2wxLjA5NS0uMDMyYzIuMjA0LS4wNyA0LjM2MS0uMDk0IDYuNTAyLS4xMDJsMy4yMDQtLjAwNGM4Ljc0NyAwIDE2IDEuMDY2IDIxLjk3NCAzLjMwNkEzOC4xIDM4LjEgMCAwIDEgMTMxLjIgNzUuNTJhMzQgMzQgMCAwIDEgNy43ODcgMTIuMTZjMS42IDQuNDggMi40NTMgOS4wNjcgMi40NTMgMTMuODY3cTAgMTMuNzYtNi40IDIyLjcyYy00LjI2NyA1Ljk3My0xMC4yNCAxMC40NTMtMTcuMTczIDEzLjAxM2MtNy4wMTIgMi41NzgtMTQuNzIxIDMuNTYtMjMuMTI4IDMuNjIzSDkxLjY5bC0xLjE4Ny0uMDEybC0uNzYxLS4wMThsLS40NDgtLjAxOWwtLjQwMi0uMDI0bC0uMzU5LS4wM2ExNiAxNiAwIDAgMC0uNjkyLS4wNTJsLS41Mi0uMDIzbC0uNTctLjAxNWwtLjk1MS0uMDEzbC0xLjg1My0uMDA0djM0LjI0Yy4xMDYuNzQ3LS40MjcgMS4zODctMS4xNzQgMS40OTRINjIuMDhjLS44NTMgMC0xLjI4LS40MjctMS4yOC0xLjM4N20yMy4yNTMtOTAuMzQ3djM1Ljg0bDEuMjU0LjA5YTQzIDQzIDAgMCAwIDIuOTA2LjEyNGg1LjY1NGM0LjE2IDAgOC4zMi0uNjQgMTIuMjY2LTEuOTJjMy40MTQtLjk2IDYuNC0yLjk4NyA4Ljc0Ny01LjY1NGMyLjI0LTIuNjY2IDMuMzA3LTYuMjkzIDMuMzA3LTEwLjk4NmExNy41NiAxNy41NiAwIDAgMC0yLjQ1NC05LjQ5NGMtMS43MzctMi42NTctNC4xNjEtNC43MjctNy4wODItNS45MjhsLS4zODQtLjE1MmMtMy45NDctMS42LTguMjE0LTIuMjQtMTIuNTg3LTIuMTMzbC0yLjQ2Ni4wMDNsLTEuMTU5LjAwN2wtMS4xMDcuMDE1bC0xLjA1MS4wMjRxLS43NjkuMDItMS40Ny4wNThhMzcgMzcgMCAwIDAtLjY4OC0uMDI4bC0uNjM5LS4wMTRsLS4zLS4wMDJsLS41NjYuMDAzbC0uNTE0LjAxNGwtLjIzOC4wMWwtLjQzNy4wMjVsLS4zODQuMDNsLS4xNzMuMDE2bC0uMzAzLjAzNXptNzIuMzIgNi4xODdoMTguNjY3YzEuMDA3IDAgMS44MjUuNjY2IDIuMTgyIDEuNTQ5bC4wNTguMTU4Yy4zMi44NTMuNTMzIDEuNzA2LjY0IDIuNjY2Yy4yMTMgMS4wNjcuNDI3IDIuMjQuNTMzIDMuMzA3bC4wOSAxLjAzMmMuMDcuODgxLjEyNCAxLjgxOC4xMjQgMi44MDhhMzkuNyAzOS43IDAgMCAxIDEwLjgyLTguODQ5bC41OTMtLjMyNGM0LjkwNy0yLjc3NCAxMC41Ni00LjE2IDE2LjIxMy00LjE2Yy43NDctLjEwNyAxLjM4Ny40MjYgMS40OTQgMS4xNzN2MjEuMjI3YzAgLjg1My0uNTM0IDEuMTczLTEuNzA3IDEuMTczYy0zLjU4NC0uMS03LjI2LjE3My0xMC43Ny45MDNsLS43NS4xNjRxLTQuNjQuOTYtOC45NiAyLjg4Yy0yLjAyNy45Ni0zLjk0NyAyLjI0LTUuNDQgMy45NDZ2NTQuNGMwIDEuMDY3LS40MjcgMS40OTQtMS4zODcgMS40OTRIMTU3Ljc2Yy0uODUzLjEwNi0xLjYtLjQyNy0xLjcwNy0xLjI4di01OS41MmMwLTIuNTYgMC01LjIyNy0uMTA2LThsLS4wNjQtMi4wOGwtLjA4Ni00LjE2cS0uMDI0LTEuMDQtLjA2NC0yLjA4YzAtMi40NTQtLjIxMy00LjgtLjQyNi03LjI1NGMtLjEwNy0uNTMzLjIxMy0xLjA2Ni43NDYtMS4xNzNjMC0uMDkxLjE1Ny0uMTA0LjI2OS0uMDR6IiAvPgo8L3N2Zz4K" class="w-10" alt="Illustrator">
+                </div>
+                <div class="absolute bottom-10 right-0 glass rounded-xl p-3">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+Cgk8cGF0aCBkPSJNMCAwaDI1NnYyNTZIMHoiIGZpbGw9Im5vbmUiIC8+Cgk8ZyBmaWxsPSJub25lIj4KCQk8cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgZmlsbD0iIzAwMWUzNiIgcng9IjYwIiAvPgoJCTxwYXRoIGZpbGw9IiMzMWE4ZmYiIGQ9Ik01Ny42IDE3OC4wNFY2OC4yOGMwLS43NDcuMzItMS4xNzMgMS4wNjctMS4xNzNjMS44MTMgMCAzLjUyIDAgNS45NzMtLjEwN2MyLjU2LS4xMDcgNS4yMjctLjEwNyA4LjEwNy0uMjEzYzIuODgtLjEwNyA1Ljk3My0uMTA3IDkuMjgtLjIxNGMzLjMwNi0uMTA2IDYuNTA2LS4xMDYgOS43MDYtLjEwNmM4Ljc0NyAwIDE2IDEuMDY2IDIxLjk3NCAzLjMwNkEzOC4xIDM4LjEgMCAwIDEgMTI4IDc4LjUyYTM0IDM0IDAgMCAxIDcuNzg3IDEyLjE2YzEuNiA0LjQ4IDIuNDUzIDkuMDY3IDIuNDUzIDEzLjg2N3EwIDEzLjc2LTYuNCAyMi43MmMtNC4yNjcgNS45NzMtMTAuMjQgMTAuNDUzLTE3LjE3MyAxMy4wMTMtNy4yNTQgMi42NjctMTUuMjU0IDMuNjI3LTI0IDMuNjI3Yy0yLjU2IDAtNC4yNjcgMC01LjMzNC0uMTA3cy0yLjU2LS4xMDctNC41ODYtLjEwN3YzNC4yNGMuMTA2Ljc0Ny0uNDI3IDEuMzg3LTEuMTc0IDEuNDk0SDU4Ljg4Yy0uODUzIDAtMS4yOC0uNDI3LTEuMjgtMS4zODdtMjMuMjUzLTkwLjM0N3YzNS44NGMxLjQ5NC4xMDcgMi44OC4yMTQgNC4xNi4yMTRoNS42NTRjNC4xNiAwIDguMzItLjY0IDEyLjI2Ni0xLjkyYzMuNDE0LS45NiA2LjQtMi45ODcgOC43NDctNS42NTRjMi4yNC0yLjY2NiAzLjMwNy02LjI5MyAzLjMwNy0xMC45ODZhMTcuNTYgMTcuNTYgMCAwIDAtMi40NTQtOS40OTRjLTEuODEzLTIuNzczLTQuMzczLTQuOTA2LTcuNDY2LTYuMDhjLTMuOTQ3LTEuNi04LjIxNC0yLjI0LTEyLjU4Ny0yLjEzM2MtMi43NzMgMC01LjIyNyAwLTcuMjUzLjEwN2MtMi4xMzQtLjEwNy0zLjYyNyAwLTQuMzc0LjEwNk0yMDQuOCAxMTcuMDI3Yy0zLjItMS43MDctNi42MTMtMi44OC0xMC4yNC0zLjYyN2MtMy45NDctLjg1My03Ljg5My0xLjM4Ny0xMS45NDctMS4zODdjLTIuMTMzLS4xMDYtNC4zNzMuMjE0LTYuNC43NDdjLTEuMzg2LjMyLTIuNTYgMS4wNjctMy4zMDYgMi4xMzNjLS41MzQuODU0LS44NTQgMS45Mi0uODU0IDIuODhzLjQyNyAxLjkyIDEuMDY3IDIuNzc0Yy45NiAxLjE3MyAyLjI0IDIuMTMzIDMuNjI3IDIuODhhOTggOTggMCAwIDAgNy41NzMgMy41MmM1Ljc2IDEuOTIgMTEuMzA3IDQuNTg2IDE2LjQyNyA3Ljc4NmMzLjUyIDIuMjQgNi40IDUuMjI3IDguNDI2IDguODU0YzEuNzA3IDMuNDEzIDIuNTYgNy4xNDYgMi40NTQgMTAuOTg2Yy4xMDYgNS4wMTQtMS4zODcgMTAuMDI3LTQuMTYgMTQuMTg3YTI2LjczIDI2LjczIDAgMCAxLTExLjk0NyA5LjQ5M2MtNS4yMjcgMi4yNC0xMS42MjcgMy40MTQtMTkuMzA3IDMuNDE0Yy00LjkwNiAwLTkuNzA2LS40MjctMTQuNTA2LTEuMzg3YTQzIDQzIDAgMCAxLTEwLjg4LTMuNDEzYy0uNzQ3LS40MjctMS4yOC0xLjE3NC0xLjE3NC0yLjAyN3YtMTguNTZjMC0uMzIuMTA3LS43NDcuNDI3LS45NnMuNjQtLjEwNy45Ni4xMDdjNC4xNiAyLjQ1MyA4LjUzMyA0LjE2IDEzLjIyNyA1LjIyNmM0LjA1MyAxLjA2NyA4LjMyIDEuNiAxMi41ODYgMS42YzQuMDU0IDAgNi45MzQtLjUzMyA4Ljg1NC0xLjQ5M2MxLjcwNi0uNzQ3IDIuODgtMi41NiAyLjg4LTQuNDhjMC0xLjQ5My0uODU0LTIuODgtMi41Ni00LjI2N2MtMS43MDctMS4zODYtNS4yMjctMi45ODYtMTAuNDU0LTUuMDEzYTY1LjMgNjUuMyAwIDAgMS0xNS4xNDYtNy42OGEyNy42IDI3LjYgMCAwIDEtOC4xMDctOS4wNjdjLTEuNzA3LTMuNDEzLTIuNTYtNy4xNDYtMi40NTMtMTAuODhjMC00LjU4NiAxLjI4LTguOTYgMy42MjYtMTIuOTA2YzIuNjY3LTQuMjY3IDYuNjE0LTcuNjggMTEuMi05LjgxNGM1LjAxNC0yLjU2IDExLjMwNy0zLjczMyAxOC44OC0zLjczM2M0LjM3NCAwIDguODU0LjMyIDEzLjIyNy45NmMzLjIuNDI3IDYuMjkzIDEuMjggOS4xNzMgMi40NTNjLjQyNy4xMDcuODU0LjUzNCAxLjA2Ny45NmMuMTA3LjQyNy4yMTMuODU0LjIxMyAxLjI4djE3LjM4N2MwIC40MjctLjIxMy44NTMtLjUzMyAxLjA2N2MtLjk2LjIxMy0xLjQ5My4yMTMtMS45MiAwIiAvPgoJCTwvZz4KPC9zdmc+Cg==" class="w-10" alt="WordPress">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio" class="portfolio-section py-24 border-t border-zinc-900 bg-[#161616]">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <div class="portfolio-grid">
+
+      <!-- ===== SIDEBAR GAUCHE ===== -->
+      <div class="portfolio-sidebar">
+        <p class="sidebar-label">My Portfolio</p>
+        <h2 class="sidebar-title">Un design simple et<br>minimaliste</h2>
+        <p class="sidebar-sub">Réalisez vos rêves avec moi</p>
+        <p class="sidebar-desc">En élaborant des expériences<br>utilisateur fluides et des interfaces visuellement époustouflantes</p>
+        <div class="pt-4">
+          <h3 class="contact-title">contactez-moi !</h3>
+          <p class="contact-item">+261 33 34 538 03</p>
+          <p class="contact-item">+261 34 91 414 40</p>
+          <p class="contact-item">ralaivaosedera5948@gmail.com</p>
+        </div>
+      </div>
+
+      <!-- ===== CONTENU PRINCIPAL ===== -->
+      <div class="portfolio-content flex flex-col gap-8">
+        
+        <!-- ===== ONGLETS STICKY (FIXES) ===== -->
+        <div class="sticky-tabs-bar">
+          <div class="tabs-container">
+            <button class="tab-btn active" data-category="all">Tout</button>
+            <button class="tab-btn" data-category="uiux">UI/UX</button>
+            <button class="tab-btn" data-category="flyer">Flyer</button>
+            <button class="tab-btn" data-category="maquette">Branding</button>
+            <button class="tab-btn" data-category="logo">Logos</button>
+          </div>
+        </div>
+
+        <!-- ===== GRILLE DES PROJETS ===== -->
+        <div id="galleryContainer" class="gallery-grid pt-2"></div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div id="detailsModal" class="fixed inset-0 bg-[#1A1A1A]/95 z-50 hidden opacity-0 transition-opacity duration-300 flex items-center justify-center p-4 backdrop-blur-lg">
+    <button id="closeModal" class="absolute top-6 right-6 text-xl text-zinc-400 hover:text-[#FFE5CC] transition">✕ Fermer</button>
+    <div class="max-w-5xl w-full grid md:grid-cols-2 gap-12 items-center bg-zinc-950/40 p-6 md:p-10 rounded-2xl border border-zinc-800/50">
+        <div class="overflow-hidden rounded-xl bg-zinc-900 flex justify-center items-center max-h-[70vh]">
+            <img id="modalImage" src="" class="w-full h-full object-contain" alt="Agrandissement">
+        </div>
+        <div class="flex flex-col gap-4">
+            <span id="modalCategory" class="text-xs uppercase tracking-widest text-red-500 font-bold"></span>
+            <h3 id="modalTitle" class="text-3xl md:text-5xl font-bold text-[#FFE5CC]"></h3>
+            <hr class="border-zinc-800 my-2">
+            <p id="modalDesc" class="text-zinc-400 text-sm leading-relaxed"></p>
+            <div class="mt-4">
+                <span class="text-xs text-zinc-500 block">Stack technique utilisé</span>
+                <p class="text-xs text-[#E7D8C4] font-medium mt-1">Figma  · Adobe Suite</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="border-t border-zinc-800 py-10">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-zinc-500 text-xs">© 2026 Ralaivao Sedera</p>
+        <p class="text-zinc-500 text-xs">Designed with passion</p>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

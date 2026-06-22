@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Sedera Ralaivao, Product Designer UX/UI avec 3 ans d'expérience. Découvrez mes projets, études de cas et réalisations digitales.">
+  <title>Ralaivao Sedera | Product Designer UX/UI à Madagascar</title>
+  <link rel="icon" type="image/png" href="../assets/logo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="page-service">
+
+<!-- ===== NAVBAR UNIFIÉE (style 1.PNG) ===== -->
+<header class="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A]/90 backdrop-blur-md border-b border-white/5">
+
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+
+        <div class="w-12">
+            <a href="../index.html">
+                <img src="../assets/logo.png" alt="Logo">
+            </a>
+        </div>
+
+        <nav class="hidden md:flex gap-12 items-center">
+            <a href="../index.html" class="text-zinc-300 hover:text-white transition">
+                Portfolio
+            </a>
+
+            <a href="service.html" class="text-red-500 font-medium">
+                Services
+            </a>
+
+            <a href="about.html" class="text-zinc-300 hover:text-white transition">
+                À propos
+            </a>
+
+            <a href="../cv/Ralaivao CV.pdf"
+               class="bg-[#F0E6D6] text-black px-6 py-3 rounded-full font-medium hover:bg-[#E2D5C1] transition">
+                Curriculum vitae
+            </a>
+        </nav>
+
+        <button id="menuBtn" class="md:hidden text-3xl text-white">
+            ☰
+        </button>
+
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu md:hidden">
+    <a href="../index.html">Portfolio</a>
+    <a href="service.html" class="active">Services</a>
+    <a href="about.html">À propos</a>
+
+    <a href="../cv/Ralaivao CV.pdf" class="cv-btn-mobile">
+        Curriculum vitae
+    </a>
+</div>
+
+</header>
+
+<main class="max-w-7xl mx-auto px-6 pt-40 pb-20">
+    
+    <div class="text-center mb-16">
+      <span class="text-[#27ae60] text-xl font-semibold tracking-wider block mb-2 uppercase">Services</span>
+      <h1 class="text-4xl lg:text-5xl font-bold tracking-tight text-white mb-6">Designer Web et Visuel</h1>
+      <p class="max-w-2xl mx-auto text-zinc-400 text-base leading-relaxed">
+        Accompagnement sur-mesure dans la création de votre identité de marque et de vos interfaces numériques. 
+        De la stratégie visuelle au prototypage fonctionnel, je conçois des solutions épurées, impactantes 
+        et centrées sur l'expérience utilisateur pour propulser vos projets.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      
+      <div class="service-card">
+        <h3 class="text-xl font-bold tracking-wide text-white mb-4">Design UI/UX</h3>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Création d'interfaces utilisateur intuitives et d'expériences utilisateur fluides, avec un focus sur un style minimaliste et clair.
+        </p>
+        <ul class="card-list">
+          <li>Prototypage</li>
+          <li>Wireframes</li>
+          <li>Tests utilisateurs</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3 class="text-xl font-bold tracking-wide text-white mb-4">Flyer</h3>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Conception de flyers épurés et percutants, renforcés par mes compétences en communication et marketing.
+        </p>
+        <ul class="card-list">
+          <li>Mise en page</li>
+          <li>Branding</li>
+          <li>Stratégie visuelle</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3 class="text-xl font-bold tracking-wide text-white mb-4">Maquette</h3>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Création d'une maquette visuelle haute-fidélité, détaillée et réaliste, représentant un design finalisé pour divers supports, de supports imprimés ou d'espaces physiques.
+        </p>
+        <ul class="card-list">
+          <li>Création de contenu visuel</li>
+          <li>Gestion de branding</li>
+          <li>Promotion digitale</li>
+        </ul>
+      </div>
+
+      <div class="service-card">
+        <h3 class="text-xl font-bold tracking-wide text-white mb-4">Logos</h3>
+        <p class="text-zinc-300 text-sm leading-relaxed">
+          Création de logos minimalistes et mémorables, reflétant l'identité de votre marque avec une touche personnelle.
+        </p>
+      </div>
+
+    </div>
+
+</main>
+
+<footer class="border-t border-zinc-800 py-10 mt-12">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-3">
+        <p class="text-zinc-500 text-sm">
+            © 2026 Ralaivao Sedera
+        </p>
+
+        <p class="text-zinc-500 text-sm">
+            Designed with passion
+        </p>
+    </div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>R.Sedera Portfolio</title>
+<link rel="icon" type="image/png" href="../assets/logo.png">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../styles/style.css">
+</head>
+<body class="page-about bg-[#1A1A1A] text-white font-['Space_Grotesk']">
+
+<!-- ===== NAVBAR UNIFIÉE (style 1.PNG) ===== -->
+<header class="fixed top-0 left-0 w-full z-50 bg-[#1A1A1A]/90 backdrop-blur-md border-b border-white/5">
+
+    <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+
+        <div class="w-12">
+            <a href="../index.html">
+                <img src="../assets/logo.png" alt="Logo">
+            </a>
+        </div>
+
+        <nav class="hidden md:flex gap-12 items-center">
+            <a href="../index.html" class="text-zinc-300 hover:text-white transition">
+                Portfolio
+            </a>
+
+            <a href="service.html" class="text-zinc-300 hover:text-white transition">
+                Services
+            </a>
+
+            <a href="about.html" class="text-red-500 font-medium">
+                À propos
+            </a>
+
+            <a href="../cv/Ralaivao CV.pdf"
+               class="bg-[#F0E6D6] text-black px-6 py-3 rounded-full font-medium hover:bg-[#E2D5C1] transition">
+                Curriculum vitae
+            </a>
+        </nav>
+
+        <button id="menuBtn" class="md:hidden text-3xl text-white">
+            ☰
+        </button>
+
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu md:hidden">
+        <a href="../index.html">Portfolio</a>
+        <a href="service.html">Services</a>
+        <a href="about.html" class="active">À propos</a>
+
+        <a href="../cv/Ralaivao CV.pdf" class="cv-btn-mobile">
+            Curriculum vitae
+        </a>
+    </div>
+
+</header>
+
+<section id="about" class="pt-32 pb-20">
+  <div class="max-w-7xl mx-auto px-8">
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <div class="about-frame-wrap">
+        <div class="about-photo-box">
+          <img src="../assets/fff.png" alt="R.Sedera" class="about-photo-img">
+        </div>
+        <div class="about-badge">
+          <div class="badge-num">3+</div>
+          <div class="badge-lbl">ans XP</div>
+        </div>
+      </div>
+      <div>
+        <p class="text-xs uppercase tracking-widest text-zinc-500 mb-4">À propos de moi</p>
+        <h2 class="text-3xl md:text-4xl font-bold leading-tight mb-6">
+          Designer passionné<br><span class="text-red-800">& créatif</span>
+        </h2>
+        <p class="text-zinc-300 leading-relaxed mb-4 text-sm">
+          Je suis <strong class="text-white">Ralaivao Sedera</strong>, UI/UX & Web Designer basé à Madagascar.
+          Avec plus de 3 ans d'expérience, je conçois des interfaces digitales qui allient esthétique et fonctionnalité.
+        </p>
+        <p class="text-zinc-500 leading-relaxed mb-8 text-sm">
+          Mon approche repose sur une compréhension profonde des besoins utilisateurs associée à une exigence visuelle qui transforme chaque projet en expérience mémorable.
+        </p>
+        <div class="grid grid-cols-3 gap-6 mb-8">
+          <div class="about-stat"><div class="stat-n">50+</div><div class="stat-l">Projets</div></div>
+          <div class="about-stat"><div class="stat-n">30+</div><div class="stat-l">Clients</div></div>
+          <div class="about-stat"><div class="stat-n">3+</div><div class="stat-l">Années</div></div>
+        </div>
+        <div class="flex flex-wrap gap-2 mb-8">
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">Photoshop</span>
+          <span class="skill-tag">Illustrator</span>
+          <span class="skill-tag">UI/UX</span>
+          <span class="skill-tag">WordPress</span>
+          <span class="skill-tag">Branding</span>
+        </div>
+        <a href="../cv/Ralaivao CV.pdf" class="cv-btn">Télécharger mon CV</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="competences" class="py-20 border-t border-zinc-800/50 bg-[#1A1A1A]">
+  <div class="max-w-3xl mx-auto px-8">
+    
+    <div class="text-center mb-16">
+      <h2 class="text-2xl font-bold text-[#22c55e] uppercase tracking-widest mb-3">Compétences</h2>
+      <p class="text-zinc-400 text-sm tracking-wide">Comprendre le processus de conception d'une brève étude</p>
+    </div>
+
+    <div class="space-y-8">
+      
+      <div>
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-zinc-300 text-sm font-medium tracking-wide">UI/UX Design</span>
+          <span class="text-zinc-400 font-mono text-xs">70 %</span>
+        </div>
+        <div class="w-full bg-[#F0E6D6]/10 h-[6px] rounded-full overflow-hidden">
+          <div class="bg-red-800 h-full w-0 rounded-full transition-all duration-1000 ease-out progress-bar" data-target="70%"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-zinc-300 text-sm font-medium tracking-wide">styles visuels Design</span>
+          <span class="text-zinc-400 font-mono text-xs">85 %</span>
+        </div>
+        <div class="w-full bg-[#F0E6D6]/10 h-[6px] rounded-full overflow-hidden">
+          <div class="bg-red-800 h-full w-0 rounded-full transition-all duration-1000 ease-out progress-bar" data-target="85%"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-zinc-300 text-sm font-medium tracking-wide">Dev front end(Html,Css , JS) Vibe Coder</span>
+          <span class="text-zinc-400 font-mono text-xs">40 %</span>
+        </div>
+        <div class="w-full bg-[#F0E6D6]/10 h-[6px] rounded-full overflow-hidden">
+          <div class="bg-red-800 h-full w-0 rounded-full transition-all duration-1000 ease-out progress-bar" data-target="40%"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-zinc-300 text-sm font-medium tracking-wide">Monteur Video</span>
+          <span class="text-zinc-400 font-mono text-xs">56 %</span>
+        </div>
+        <div class="w-full bg-[#F0E6D6]/10 h-[6px] rounded-full overflow-hidden">
+          <div class="bg-red-800 h-full w-0 rounded-full transition-all duration-1000 ease-out progress-bar" data-target="56%"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-zinc-300 text-sm font-medium tracking-wide">Communication</span>
+          <span class="text-zinc-400 font-mono text-xs">70 %</span>
+        </div>
+        <div class="w-full bg-[#F0E6D6]/10 h-[6px] rounded-full overflow-hidden">
+          <div class="bg-red-800 h-full w-0 rounded-full transition-all duration-1000 ease-out progress-bar" data-target="70%"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="border-t border-zinc-800 py-8">
+  <div class="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-3">
+    <p class="text-zinc-500 text-sm">© 2026 RALAIVAO SEDERA</p>
+    <p class="text-zinc-500 text-sm">Designed with passion</p>
+  </div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>
