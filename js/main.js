@@ -65,12 +65,6 @@ const projectsData = [
         desc: "Cette présentation d'identité de marque pour AVELOR, incarne un luxe minimaliste et sophistiqué. Le design se concentre sur un emblème géométrique stylisé et angulaire, intégrant subtilement le nom de la marque dans une forme qui évoque à la fois une structure architecturale et une flèche de boussole.",
         img: "assets/dav.png"
     },
-    {
-        title: "Affiche Cyber Brutalisme",
-        category: "maquette",
-        desc: "Flyer événementiel explorant les structures typographiques complexes et les textures numériques denses pour un festival underground.",
-        img: "assets/pub2.jpg"
-    },
     
     {
         title: "Marchez avec Élégance",
@@ -83,6 +77,12 @@ const projectsData = [
         category: "flyer",
         desc: "Ce design publicitaire, présenté par 'My Tech Antarandolo', met en vedette un ordinateur portable HP argenté de type 'Zed Book' sous Windows 11. Le visuel utilise une structure graphique divisée, avec une section bleue répertoriant les spécifications clés du 'Haut Gamme'.",
         img: "assets/bd.jpeg"
+    },
+    {
+        title: "Affiche Cyber Brutalisme",
+        category: "flyer",
+        desc: "Flyer événementiel explorant les structures typographiques complexes et les textures numériques denses pour un festival underground.",
+        img: "assets/pub2.jpg"
     },
     {
         title: "Design de Communication Visuelle",
