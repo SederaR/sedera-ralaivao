@@ -58,12 +58,6 @@ const projectsData = [
         desc: "Mise en situation du packaging : Permet de visualiser le rendu du design d'étiquette sur différents supports réels (un bocal en verre, un sachet de café en kraft, une boîte en carton, et un gobelet à emporter).",
         img: "assets/2aa.png"
     },
-    {
-        title: "Ordinateur HP Zed Book Haut de Gamme",
-        category: "maquette",
-        desc: "Ce design publicitaire, présenté par 'My Tech Antarandolo', met en vedette un ordinateur portable HP argenté de type 'Zed Book' sous Windows 11. Le visuel utilise une structure graphique divisée, avec une section bleue répertoriant les spécifications clés du 'Haut Gamme'.",
-        img: "assets/bd.jpeg"
-    },
     
     {
         title: "AVELOR (Marque fictife)",
@@ -83,6 +77,12 @@ const projectsData = [
         category: "flyer",
         desc: "Une affiche publicitaire épurée pour des chaussures de luxe dans le fichier llk.jpg. Le visuel met en valeur une paire d'escarpins haut de gamme bleu marine et noir dans un décor raffiné, soulignant directement le chic intemporel et l'artisanat d'exception de la marque.",
         img: "assets/llk.jpeg"
+    },
+    {
+        title: "Ordinateur HP Zed Book Haut de Gamme",
+        category: "flyer",
+        desc: "Ce design publicitaire, présenté par 'My Tech Antarandolo', met en vedette un ordinateur portable HP argenté de type 'Zed Book' sous Windows 11. Le visuel utilise une structure graphique divisée, avec une section bleue répertoriant les spécifications clés du 'Haut Gamme'.",
+        img: "assets/bd.jpeg"
     },
     {
         title: "Design de Communication Visuelle",
