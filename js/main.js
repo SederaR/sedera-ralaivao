@@ -59,6 +59,13 @@ const projectsData = [
         img: "assets/2aa.png"
     },
     {
+        title: "Ordinateur HP Zed Book Haut de Gamme",
+        category: "maquette",
+        desc: "Ce design publicitaire, présenté par 'My Tech Antarandolo', met en vedette un ordinateur portable HP argenté de type 'Zed Book' sous Windows 11. Le visuel utilise une structure graphique divisée, avec une section bleue répertoriant les spécifications clés du 'Haut Gamme'.",
+        img: "assets/bd.jpeg"
+    },
+    
+    {
         title: "AVELOR (Marque fictife)",
         category: "maquette",
         desc: "Cette présentation d'identité de marque pour AVELOR, incarne un luxe minimaliste et sophistiqué. Le design se concentre sur un emblème géométrique stylisé et angulaire, intégrant subtilement le nom de la marque dans une forme qui évoque à la fois une structure architecturale et une flèche de boussole.",
