@@ -60,6 +60,13 @@ const projectsData = [
     },
     
     {
+        title: "Lamba : L’élégance urbaine 100% Malagasy",
+        category: "maquette",
+        desc: "Découvrez le t-shirt Lamba, une création exclusive qui allie modernité et identité culturelle. Arborant un visuel fort et minimaliste à l'effigie d'une silhouette afro épurée, cette pièce affirme un style à la fois authentique et contemporain.",
+        img: "assets/cs.png"
+    },
+
+    {
         title: "AVELOR (Marque fictife)",
         category: "maquette",
         desc: "Cette présentation d'identité de marque pour AVELOR, incarne un luxe minimaliste et sophistiqué. Le design se concentre sur un emblème géométrique stylisé et angulaire, intégrant subtilement le nom de la marque dans une forme qui évoque à la fois une structure architecturale et une flèche de boussole.",
