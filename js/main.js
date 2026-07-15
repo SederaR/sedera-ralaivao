@@ -79,6 +79,13 @@ const projectsData = [
         desc: "Une affiche publicitaire épurée pour des chaussures de luxe dans le fichier llk.jpg. Le visuel met en valeur une paire d'escarpins haut de gamme bleu marine et noir dans un décor raffiné, soulignant directement le chic intemporel et l'artisanat d'exception de la marque.",
         img: "assets/llk.jpeg"
     },
+
+     {
+        title: "Infographie – Projet de recherche sur l'accès à l'eau potable à Fianarantsoa",
+        category: "flyer",
+        desc: "Cette affiche scientifique présente de manière structurée et moderne un projet de recherche dédié à l’insuffisance de l’approvisionnement en eau potable à Fianarantsoa, Madagascar.",
+        img: "assets/ll.png"
+    },
     {
         title: "Ordinateur HP Zed Book Haut de Gamme",
         category: "flyer",
