@@ -84,7 +84,7 @@ const projectsData = [
         title: "Infographie – Projet de recherche sur l'accès à l'eau potable à Fianarantsoa",
         category: "flyer",
         desc: "Cette affiche scientifique présente de manière structurée et moderne un projet de recherche dédié à l’insuffisance de l’approvisionnement en eau potable à Fianarantsoa, Madagascar.",
-        img: "assets/ll.png"
+        img: "assets/ll.jpg"
     },
     {
         title: "Ordinateur HP Zed Book Haut de Gamme",
