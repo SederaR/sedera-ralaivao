@@ -81,6 +81,13 @@ const projectsData = [
     },
 
      {
+        title: "Affiche Événementielle « Coupe Corpo »",
+        category: "flyer",
+        desc: "Affiche publicitaire / support de communication digitale pour la promotion du tournoi de football inter-entreprises « Coupe Corpo » (1ʳᵉ édition), organisé par Galaxy Game Zone.",
+        img: "assets/berose.jpg"
+    },
+
+     {
         title: "Infographie – Projet de recherche sur l'accès à l'eau potable à Fianarantsoa",
         category: "flyer",
         desc: "Cette affiche scientifique présente de manière structurée et moderne un projet de recherche dédié à l’insuffisance de l’approvisionnement en eau potable à Fianarantsoa, Madagascar.",
