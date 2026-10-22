@@ -80,6 +80,13 @@ const projectsData = [
         img: "assets/llk.jpeg"
     },
 
+    {
+        title: "Annonce-Crazy Beach Party",
+        category: "flyer",
+        desc: "Photomontage complexe : Fusion harmonieuse de multiples éléments (van rétro, ciel azur, palmiers, personnages en action) créant une scène riche en récits.",
+        img: "assets/btch.jpg"
+    },
+
      {
         title: "Crazy Beach Party",
         category: "flyer",
