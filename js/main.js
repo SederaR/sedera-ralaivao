@@ -81,6 +81,13 @@ const projectsData = [
     },
 
      {
+        title: "Crazy Beach Party",
+        category: "flyer",
+        desc: "Conception d'un visuel publicitaire pour un événement festif à la plage (« Crazy Beach Party »).",
+        img: "assets/kbs.jpg"
+    },
+
+     {
         title: "Affiche Événementielle « Coupe Corpo »",
         category: "flyer",
         desc: "Affiche publicitaire / support de communication digitale pour la promotion du tournoi de football inter-entreprises « Coupe Corpo » (1ʳᵉ édition), organisé par Galaxy Game Zone.",
